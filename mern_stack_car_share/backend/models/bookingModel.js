@@ -3,8 +3,8 @@ const mongoose = require("mongoose");
 const bookingSchema = new mongoose.Schema({
 
 
-      car : {type : mongoose.Schema.Types.ObjectID , ref:'cars'},
-      user : {type : mongoose.Schema.Types.ObjectID , ref:'users'},
+      car :   {type : mongoose.Schema.Types.ObjectID , ref:'cars'},
+      user :    {type : mongoose.Schema.Types.ObjectID , ref:'users'},
       bookedTimeSlots : {
           from : {type : String} ,
           to : {type : String}
@@ -21,4 +21,9 @@ const bookingSchema = new mongoose.Schema({
 
 const bookingModel = mongoose.model('bookings' , bookingSchema)
 
+
+
 module.exports = bookingModel
+
+
+

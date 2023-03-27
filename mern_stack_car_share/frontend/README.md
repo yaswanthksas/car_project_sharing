@@ -1,4 +1,4 @@
-# Getting Started with Create Hooks App
+# Getting Started with Create React Hooks App
 
 ## Available Scripts
 
